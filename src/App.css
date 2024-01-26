@@ -1,0 +1,154 @@
+.App {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.shadow{
+    background-color: rgba(19, 18, 18);
+    border-radius: 10px;
+    width: 400px;
+    height: 415px;
+    display: flex;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    justify-content: center;
+}
+
+.searchSection {
+    z-index: 1;
+    position: relative;
+    flex: 50%;
+    opacity: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(57, 110, 64);
+    color: white;
+}
+
+.dealsSection {
+    display: flex;
+    flex: 50%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    /* background-color: rgb(57, 110, 64); */
+}
+
+input, button {
+    width: 300px;
+    height: 50px;
+    border: 2px solid white;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+
+}
+
+input{
+    padding-left: 10px;
+    
+}
+
+button {
+    cursor: grab;
+}
+
+.games {
+
+    /* border-radius: 0%; */
+    background-color: rgb(57, 110, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.games {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.game {
+
+    width: 100px;
+    height: 90px;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.game img {
+    width: 80%;
+    margin-top: 10px;
+    margin: 10px;
+    height: 30px;
+
+}
+/* #head{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 20px;
+
+} */
+#head {
+    text-align: center; /* Aligns the content in the center */
+    margin-top: 20px; /* Add margin to separate from the heading */
+  }
+  
+  .deal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the content horizontally */
+  }
+  
+  #deals {
+    width: 200px; /* Set a specific width for each deal box */
+    height: 150px; /* Set a specific height for each deal box */
+    margin: 10px; /* Add margin around each deal box for spacing */
+    background-color: rgb(57, 110, 64);
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-top: 100px;
+    position: relative;
+  }
+  
+.latest {
+    position: absolute;
+    top: 1px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px;
+}
+
+.dealsImg {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    left: 45px;
+    top: -30px;
+    z-index: -1;
+    align-items: center;
+
+}

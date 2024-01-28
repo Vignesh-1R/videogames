@@ -47,7 +47,7 @@ useEffect (() => {
         <div className='games'>
           {searchedGames.map((game,key)=> {
             return<div className='game' key={key}>{game.external}
-            <img src={game.thumb}/>
+            <img src={game.thumb} alt=''/>
             {game.cheapest}
             </div>
           })}
@@ -67,7 +67,7 @@ useEffect (() => {
             <p>Normal Price: {game.normalPrice}</p>
             <p>Deal Price: {game.salePrice}</p>
             <h3>YOU SAVE {game.savings.substr(0,2)}%</h3>
-            <img className='dealsImg' src={game.thumb}/>
+            <img className='dealsImg' src={game.thumb} alt=''/>
             </div>
           )
         })
